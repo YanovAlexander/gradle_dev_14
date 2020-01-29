@@ -1,4 +1,4 @@
-package main.java.com.goit.dev;
+package com.goit.dev;
 
 import java.util.List;
 

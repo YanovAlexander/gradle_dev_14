@@ -1,7 +1,7 @@
-package main.java.com.goit.dev.service;
+package com.goit.dev.service;
 
+import com.goit.dev.Actor;
 import com.google.gson.Gson;
-import main.java.com.goit.dev.Actor;
 
 public class ActorMapper {
     public static String toJson(Actor actor) {
