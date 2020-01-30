@@ -1,1 +1,3 @@
 rootProject.name='gradle_dev_14'
+include 'json_parser'
+
