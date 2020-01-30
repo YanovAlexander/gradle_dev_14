@@ -1,6 +1,6 @@
 package com.goit.dev;
 
-import com.goit.dev.service.ActorMapper;
+import com.goit.dev.json_parser.JsonParserSample;
 
 import java.util.Collections;
 
@@ -10,6 +10,6 @@ public class Main {
         actor.setName("Leonardo");
         actor.setSurname("Di Caprio");
         actor.setMovies(Collections.emptyList());
-        System.out.println(ActorMapper.toJson(actor));
+        System.out.println(JsonParserSample.toJson(actor));
     }
 }
